@@ -46,18 +46,6 @@
           >
             企货宝·智慧云平台
           </div>
-          <div v-if="item.level == 2">
-            <img
-              src="../../../../image/top_1.png"
-              style="
-                width: 20px;
-                height: 11px;
-                position: absolute;
-                top: 26px;
-                left: 20px;
-              "
-            />
-          </div>
           <template slot="title" v-if="item.level == 1">
             <template v-if="item.meta && item.meta.icon">
               <div>
