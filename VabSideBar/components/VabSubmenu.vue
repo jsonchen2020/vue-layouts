@@ -31,6 +31,7 @@
           ref="subMenu"
           :index="handlePath(item.path)"
           :popper-append-to-body="false"
+          hide-timeout="1000"
         >
           <div
             v-if="item.level == 1"
